@@ -3,9 +3,16 @@ public class Main {
 
         mobil mymobil = new mobil();
 
-        mymobil.belimobil("iin", "Honda", "Silver", "Matic", "Terbaru","2018");
+        mymobil.pemilik = "iin";
+        mymobil.merek = "Avanza";
+        mymobil.warna = "Silver";
+        mymobil.jenis = "Matic";
+        mymobil.model = "Terbaru";
+
+
 
         mymobil.info();
+
         mymobil.maju();
         mymobil.mundur();
         mymobil.belok();
